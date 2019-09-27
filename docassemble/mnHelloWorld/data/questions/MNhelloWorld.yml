@@ -1,0 +1,12 @@
+---
+question: | 
+ Hello! What is your name?
+fields:
+ no label: user
+---
+question: |
+ Its nice to meet you ${user}!
+buttons:
+ - Exit: exit
+mandatory: True
+---
